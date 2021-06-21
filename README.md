@@ -1,7 +1,7 @@
 # RTSPStream_OpenCV
 1.	// To stream local video using rtsp in container.
-docker build -t {tagname} .
-docker run {tagname}
+`docker build -t {tagname} .`
+`docker run {tagname}`
 
 2.	// Expose an API. This api on calling listens to rtsp stream. Use postman or any other tool to call the api. 
 `docker build -t {tagname} .`
